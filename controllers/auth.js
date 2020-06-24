@@ -32,7 +32,6 @@ exports.signUp = async (req,res,next) => {
     }
 }
 
-
 exports.login = async (req,res,next) => {
     const email = req.body.email;
     const password = req.body.password;
