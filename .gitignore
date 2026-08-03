@@ -75,8 +75,6 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
-.env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -113,7 +111,6 @@ dist
 .vscode-test
 
 ### VisualStudioCode ###
-.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -157,3 +154,4 @@ $RECYCLE.BIN/
 branch_structure.json
 temp_auto_push.bat
 temp_interactive_push.bat
+config.bat
